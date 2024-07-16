@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <!-- <link rel="stylesheet" href="./assets/css/styles.css"> -->
+    </head>
+    <body>
+        <header>
+            <img src="./assets/img/track-cat-svgrepo-com.svg" alt="logo" id="logo">
+        </header>
+        <div class="contenedor__input">
+            <div class="contenedor__input-textarea">
+                <textarea name="texto" id="texto" placeholder="Ingrese el texto aqui"></textarea>
+                <h4><img class="icono" src="./assets/icons/icons8-box-important-16.png" alt="">
+                    Solo letras minúsculas y sin acentos</h4>
+            </div>
+            <div class="contenedor__botones">
+                <p onclick="encriptarTexto();">Encriptar</p>
+                <p onclick="copiarTexto();" class="btn-copiar">Copiar</p>
+                <p onclick="desencriptarTexto();"">Desencriptar</p>
+            </div>
+        </div>
+
+            
+
+            <div class="contenedor__mensaje-encriptado">
+                <div class="contenedor__texto">    
+                    <img class="img-gato" src="./assets/img/sin-fondo.png" alt="">
+                    <h3 class="mensaje-encriptado">Ningún mensaje fue encontrado</h3>
+                    <p class="parrafo">Ingresa el texto que desees encriptar o desencriptar</p>
+                </div>
+            </div>
+    </body>
+
+    <script src="script.js"></script>
+
+</html>
